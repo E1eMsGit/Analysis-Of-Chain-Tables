@@ -25,7 +25,7 @@ class MainWindow(QWidget):
 
         self.ui = form_deisgn.Ui_Form()
         self.ui.setupUi(self)
-        self.setWindowIcon(QIcon(":/images/icon.png"))
+        self.setWindowIcon(QIcon(":/images/chip_icon.png"))
 
         self.ui.result_label.setVisible(False)
 
