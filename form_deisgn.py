@@ -14,7 +14,7 @@ class Ui_Form(object):
         Form.resize(460, 654)
         Form.setMinimumSize(QtCore.QSize(460, 654))
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("icons/icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("icons/i1con.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         Form.setWindowIcon(icon)
         self.gridLayout = QtWidgets.QGridLayout(Form)
         self.gridLayout.setObjectName("gridLayout")
